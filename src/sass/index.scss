@@ -526,3 +526,116 @@ section .limit-robbing .back-img .floor-content {
     height:507px;
     background:orange;
 }
+
+.defult_stairs{
+    width:100%;
+    position: fixed;
+    top:220px;
+    left:0;
+}
+.stairs{
+    position: absolute;
+    width:40px;
+    font-size: 12px;
+    left:-75px;
+}
+.stairs .stairs_nav {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #e62318;
+}
+.icon{
+    display: inline-block;
+    width:21px;
+    height:21px;
+    margin-top:11px;
+}
+.stairs .stairs_nav .name {
+    visibility: visible;
+    color: #e62318;
+    display: none;
+    font-style: normal;
+    line-height: 14px;
+    margin: 6px auto;
+    padding: 0 4px;
+}
+//优惠信息，转盘
+.yhxx{
+    width:88px;
+    height:88px;
+    cursor: pointer;
+    position: fixed;
+    bottom:75px;
+    right:21px;
+    background: url(../img/yhxx.gif) no-repeat;
+}
+
+//右边的悬浮框
+.defult_container{
+    width:80pxd;
+    position: fixed;
+    top:50%;
+    right:30px;
+    margin-top: -183px;
+}
+//关闭窗口
+.sidebar-container .close {
+    display: none;
+    position: fixed;
+    top: 360px;
+    right: 0;
+    width: 54px;
+    height: 70px;
+    background: url(../img/chat_icon.png) no-repeat;
+    background-position: -54px -575px;
+    z-index: 9999;
+}
+.news{
+    width:110px;
+    height:80px;
+    background: url(../img/chat_icon.png) no-repeat;
+    background-position: 0 -439px;
+    position: absolute;
+    right:0;
+    top:-94px;
+    overflow: hidden;
+    display: block;
+    z-index: 296;
+}
+.news .msg_title {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.news .msg_btn {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: SimSun;
+    color: #666;
+}
+.news .msg_content{
+    font-weight: normal;
+    font-size: 13px;
+    color: #e5134e;
+    width: 85px;
+    height: 30px;
+    line-height: 15px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+//右侧飘窗
+.asidebar-list{
+    
+}
