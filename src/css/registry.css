@@ -48,12 +48,12 @@
   padding: 0 5px; }
 
 .success {
-  background: url(../img/nav2.png) scroll no-repeat 0 -206px;
+  background: url(../img/allPuzzle.png) scroll no-repeat -101px -125px;
   display: inline-block;
   vertical-align: middle;
-  width: 16px;
-  height: 16px;
-  margin-left: 3px; }
+  width: 15px;
+  height: 14px;
+  margin-left: 5px; }
 
 .user_content .error {
   visibility: hidden;
@@ -70,10 +70,11 @@
   border: solid 1px #d5d5d5;
   background: #fff; }
 
-.user_content .error2 {
-  color: #d10000;
-  background: #fff3f3;
-  border: solid 1px #ffe4e4; }
+#JS_captcha {
+  position: absolute;
+  left: 296px;
+  top: 7px;
+  background: pink; }
 
 .register_box .readed {
   line-height: 18px;

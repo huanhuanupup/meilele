@@ -12,12 +12,10 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/registry.css">
     <!-- <script src="./js/main.js"  async="true"></script> -->
-    <script src="./script/usemodule.js" async='true'></script>
+    <script src="./script/usemodule.js" type="module" async='true'></script>
 </head>
 
 <body>
-    <div class="x">'张三'</div>
-    <div class="y">12</div>
     <div class="user_all _view_" style="position:relative;">
         <div class="user_header clear" style="padding:30px 0px;">
             <div class="logo Left" style="background: url(./img/logo2.png) 0 0 no-repeat;width:160px;height:52px">
@@ -42,37 +40,37 @@
                             <label class="tips"><span class="red">*</span>帐户名：</label>
                             <input type="text" name="user_name" class="register_input" id="register_username"
                                 autocomplete="off" tabindex="10"><span id="register_username_s" class="success"
-                                style="display:none;"></span>
+                                style="visibility: hidden;"></span>
                         </p>
                         <div id="register_username_a" class="error" style="top:-22px;padding:5px;line-height:15px;
-                        height:30px;width:255px; text-indent:0;margin-top:-20px; visibility:visible">
+                        height:30px;width:255px; text-indent:0;margin-top:-20px">
                         </div>
                         <p>
                             <label class="tips"><span class="red">*</span>设置密码：</label>
                             <input type="password" name="password" class="register_input" autocomplete="off"
                                 id="register_password" tabindex="11"><span id="register_pw_s" class="success"
-                                style="display:none;"></span>
+                                style="visibility: hidden;"></span>
                         </p>
                         <div id="register_password_a" class="error" style="top:-22px;padding:5px;line-height:15px;height:30px;
-                        width:255px; text-indent:0;margin-top:-20px; visibility:visible">
+                        width:255px; text-indent:0;margin-top:-20px">
                         </div>
                         <p>
                             <label class="tips"><span class="red">*</span>确认密码：</label>
                             <input type="password" name="confirm_password" autocomplete="off" class="register_input"
                                 id="register_confirm_password" tabindex="12"><span id="register_rpw_s" class="success"
-                                style="display:none;"></span>
+                                style="visibility: hidden;"></span>
                         </p>
                         <div id="register_confirm_password_a" class="error" style="top:-22px;padding:5px;line-height:30px;
-                        height:30px;width:255px; text-indent:0;margin-top:-20px; visibility:visible">
+                        height:30px;width:255px; text-indent:0;margin-top:-20px">
                         </div>
                         <p>
                             <label class="tips"><span class="red">*</span>手机号码：</label>
                             <input type="text" name="mobile_phone" autocomplete="off" class="register_input"
                                 id="register_mobile" tabindex="13"><span id="register_mobile_s" class="success"
-                                style="display:none;"></span>
+                                style="visibility: hidden;"></span>
                         </p>
                         <div id="register_mobile_a" class="error" style="top:-22px;padding:5px;line-height:30px;height:30px;
-                        width:255px; text-indent:0;margin-top:-20px; visibility:visible">
+                        width:255px; text-indent:0;margin-top:-20px">
                         </div>
                         <p id="register_captcha_e">
                             <label class="tips"><span class="red">*</span>验证码：</label>
@@ -80,11 +78,11 @@
                                 tabindex="14" maxlength="4">
                             <img src="" width="61" height="27" border="0" alt="" id="JS_captcha" style="cursor:pointer">
                             <a class="change-one" href="javascript:;" id="JS_captcha_tip" tabindex="15">换一张</a>
-                            <span id="register_ver_s" class="success" style="display:none;"></span>
+                            <span id="register_ver_s" class="success" style="visibility: hidden;"></span>
                         </p>
                         <div id="register_captcha_a" class="error"></div>
                         <div id="sms_captcha_s_a" class="error" style="display: none;top:-22px;padding:5px;line-height:30px;
-                        height:30px;width:255px; text-indent:0;margin-top:-20px; visibility:visible">
+                        height:30px;width:255px; text-indent:0;margin-top:-20px">
                         </div>
                         <p class="readed gray">
                             <input type="checkbox" id="sms_checked_look" checked></input><label>请阅读《<a
